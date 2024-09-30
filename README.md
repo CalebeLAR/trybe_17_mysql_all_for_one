@@ -31,7 +31,7 @@ Um projeto com o codinome All For One para praticar todos os conceitos de SQL us
 
 **1. Clone o repositório**
 ```shell
-    git clone git@github.com:CalebeLAR/trybe_13_trybe_wallet.git
+    git clone git@github.com:CalebeLAR/trybe_17_mysql_all_for_one.git
 ```
 
 **2. rodando o docker**
