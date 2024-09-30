@@ -549,7 +549,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- INSERTING DATA
 -- -------------------------------------------------
 #
-# Converted from MS Access 2010 Northwind database (northwind.accdb) using
+# Converted FROM northwind.MS Access 2010 Northwind database (northwind.accdb) using
 # Bullzip MS Access to MySQL Version 5.1.242. http://www.bullzip.com
 #
 # CHANGES MADE AFTER INITIAL CONVERSION
@@ -1100,11 +1100,11 @@ INSERT INTO `purchase_orders` (`id`, `supplier_id`, `created_by`, `submitted_dat
 # Dumping data for table 'sales_reports'
 #
 
-INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Category', 'Category', 'Sales By Category', 'SELECT DISTINCT [Category] FROM [products] ORDER BY [Category];', 0);
-INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('country_region', 'Country/Region', 'Sales By Country', 'SELECT DISTINCT [country_region] FROM [customers Extended] ORDER BY [country_region];', 0);
-INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Customer ID', 'Customer', 'Sales By Customer', 'SELECT DISTINCT [Company] FROM [customers Extended] ORDER BY [Company];', 0);
-INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('employee_id', 'Employee', 'Sales By Employee', 'SELECT DISTINCT [Employee Name] FROM [employees Extended] ORDER BY [Employee Name];', 0);
-INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Product ID', 'Product', 'Sales by Product', 'SELECT DISTINCT [Product Name] FROM [products] ORDER BY [Product Name];', 1);
+INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Category', 'Category', 'Sales By Category', 'SELECT DISTINCT [Category] FROM northwind.[products] ORDER BY [Category];', 0);
+INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('country_region', 'Country/Region', 'Sales By Country', 'SELECT DISTINCT [country_region] FROM northwind.[customers Extended] ORDER BY [country_region];', 0);
+INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Customer ID', 'Customer', 'Sales By Customer', 'SELECT DISTINCT [Company] FROM northwind.[customers Extended] ORDER BY [Company];', 0);
+INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('employee_id', 'Employee', 'Sales By Employee', 'SELECT DISTINCT [Employee Name] FROM northwind.[employees Extended] ORDER BY [Employee Name];', 0);
+INSERT INTO `sales_reports` (`group_by`, `display`, `title`, `filter_row_source`, `default`) VALUES ('Product ID', 'Product', 'Sales by Product', 'SELECT DISTINCT [Product Name] FROM northwind.[products] ORDER BY [Product Name];', 1);
 # 5 records
 
 #
